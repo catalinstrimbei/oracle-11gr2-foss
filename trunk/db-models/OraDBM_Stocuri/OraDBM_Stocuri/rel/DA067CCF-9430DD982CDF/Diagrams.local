@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="DAE913BB-7A93-B872-A123-5D63563DC883" name="Stocuri" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

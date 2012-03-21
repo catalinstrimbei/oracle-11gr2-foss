@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="BC3437E4-9475-2C7A-D6E4-CC3083FE6673" directorySegmentName="seg_0" name="Material">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-21 11:16:32 UTC</createdTime>
+<ownerDesignName>OraDBM_Stocuri</ownerDesignName>
+<pkName>Material_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C0B83692-F03E-350A-695C-D53FA964C390">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-21 12:16:40 UTC</createdTime>
+<ownerDesignName>OraDBM_Stocuri</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D733236C-CF2B-9ED4-F627-3E0EA27F421F" name="Material_PK">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-21 12:16:40 UTC</createdTime>
+<ownerDesignName>OraDBM_Stocuri</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C0B83692-F03E-350A-695C-D53FA964C390"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="69D22953-B95E-29B6-2003-C1A1BA79B2B7">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2012-03-21 11:14:30 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2012-03-21 11:14:30 UTC</changedTime>
+   <autoRoute>false</autoRoute>
+   <boxInbox>true</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <notation>1</notation>
+</Diagram>
