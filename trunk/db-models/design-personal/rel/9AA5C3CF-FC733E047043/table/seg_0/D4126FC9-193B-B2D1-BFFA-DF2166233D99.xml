@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="D4126FC9-193B-B2D1-BFFA-DF2166233D99" directorySegmentName="seg_0" name="Test">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="D4126FC9-193B-B2D1-BFFA-DF2166233D99" directorySegmentName="seg_0" name="PERSOANE">
 <createdBy>catalin.strimbei</createdBy>
 <createdTime>2012-03-21 13:06:15 UTC</createdTime>
 <ownerDesignName>design-personal</ownerDesignName>
