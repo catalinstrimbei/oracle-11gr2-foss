@@ -49,6 +49,16 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="denumire" id="38C8D477-41A7-9577-4EDF-AD1F99104B98">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-21 12:19:02 UTC</createdTime>
+<ownerDesignName>OraDBM_Stocuri</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D733236C-CF2B-9ED4-F627-3E0EA27F421F" name="Material_PK">
