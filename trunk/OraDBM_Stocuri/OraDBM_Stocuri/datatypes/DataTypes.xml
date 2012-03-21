@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="B183FD02-3B34-1D65-FE78-EA58F5C970F9" mainViewID="1807F209-566C-52B8-FED3-63ACA60A608A">
-   <createdBy>catalin.strimbei</createdBy>
-   <createdTime>2012-03-21 11:12:00 UTC</createdTime>
-   <changedBy>catalin.strimbei</changedBy>
-   <changedTime>2012-03-21 11:12:00 UTC</changedTime>
-   <ownerDesignName>OraDBM_Stocuri</ownerDesignName>
-   <shouldBeOpen>false</shouldBeOpen>
-</DataTypesDesign>
