@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="94EAE91E-1682-C5D1-658E-973675120E09">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-21 12:39:23 UTC</createdTime>
+<ownerDesignName>design-stocuri</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
