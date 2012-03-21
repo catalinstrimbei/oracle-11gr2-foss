@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7D006FC6-E579-FADE-E5A2-CB00C21FC4E0" mainViewID="69D22953-B95E-29B6-2003-C1A1BA79B2B7">
-   <createdBy>catalin.strimbei</createdBy>
-   <createdTime>2012-03-21 11:14:11 UTC</createdTime>
-   <changedBy>catalin.strimbei</changedBy>
-   <changedTime>2012-03-21 11:14:11 UTC</changedTime>
-   <ownerDesignName>OraDBM_Personal</ownerDesignName>
-   <shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="FB828A78-0587-5905-7FE5-410C12D6E1A8">
-   <createdBy>catalin.strimbei</createdBy>
-   <createdTime>2012-03-21 11:14:11 UTC</createdTime>
-   <changedBy>catalin.strimbei</changedBy>
-   <changedTime>2012-03-21 11:14:11 UTC</changedTime>
-   <ownerDesignName>OraDBM_Personal</ownerDesignName>
-   <shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
