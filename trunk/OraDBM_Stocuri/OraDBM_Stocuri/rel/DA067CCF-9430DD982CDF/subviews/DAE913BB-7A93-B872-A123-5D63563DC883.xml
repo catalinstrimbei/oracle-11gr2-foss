@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Stocuri" id="DAE913BB-7A93-B872-A123-5D63563DC883">
+   <createdBy>catalin.strimbei</createdBy>
+   <createdTime>2012-03-21 11:14:02 UTC</createdTime>
+   <changedBy>catalin.strimbei</changedBy>
+   <changedTime>2012-03-21 11:17:21 UTC</changedTime>
+   <autoRoute>false</autoRoute>
+   <boxInbox>true</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <notation>1</notation>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BC3437E4-9475-2C7A-D6E4-CC3083FE6673" otype="Table" vid="EBD268A2-D1B1-1FAD-0C5E-EF6D82630DB6">
+         <bounds x="80" y="93" width="170" height="110"/>
+      </OView>
+   </objectViews>
+</Diagram>
