@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="287A3046-9C9B-EA4F-8D5B-9C52A4B986F5">
-<createdBy>catalin.strimbei</createdBy>
-<createdTime>2012-03-21 12:39:23 UTC</createdTime>
-<ownerDesignName>design-stocuri</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
