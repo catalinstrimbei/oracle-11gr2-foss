@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="D365B75A-0D34-88E2-800F-F4F23A050302" directorySegmentName="seg_0" name="Material">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-23 09:32:05 UTC</createdTime>
+<ownerDesignName>design-stocuri</ownerDesignName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod" id="D2BD8867-D448-7422-1AB0-53B93EB3D076">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-23 09:32:36 UTC</createdTime>
+<ownerDesignName>design-stocuri</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="denumire" id="6FDFD800-6A9D-85F7-872E-44FE6820E9B6">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-23 09:32:36 UTC</createdTime>
+<ownerDesignName>design-stocuri</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

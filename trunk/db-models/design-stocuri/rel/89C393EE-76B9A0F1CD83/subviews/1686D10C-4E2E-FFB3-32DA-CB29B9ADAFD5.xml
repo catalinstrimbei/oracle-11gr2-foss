@@ -11,8 +11,8 @@
 <display>false</display>
 <notation>1</notation>
 <objectViews>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="29B69F9E-F1A3-C04C-9241-EBF98BDDBC3C" otype="Table" vid="EBB5EFD2-5929-F8C6-0A79-DFD7EC83584F">
-<bounds x="130" y="79" width="170" height="110"/>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D365B75A-0D34-88E2-800F-F4F23A050302" otype="Table" vid="5448A766-79DE-7052-FE23-F438DF05C06B">
+<bounds x="84" y="45" width="170" height="110"/>
 </OView>
 </objectViews>
 </Diagram>
