@@ -81,5 +81,15 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ctg" id="2A576D0E-98A4-33BA-B9B9-CC4BD62FC74D">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-23 09:43:12 UTC</createdTime>
+<ownerDesignName>design-stocuri</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 </Table>
