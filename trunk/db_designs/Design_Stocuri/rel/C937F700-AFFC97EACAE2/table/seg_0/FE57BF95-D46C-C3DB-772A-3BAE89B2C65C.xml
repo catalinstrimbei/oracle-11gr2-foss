@@ -3,6 +3,7 @@
 <createdBy>catalin.strimbei</createdBy>
 <createdTime>2012-03-23 11:16:21 UTC</createdTime>
 <ownerDesignName>Design_Stocuri</ownerDesignName>
+<pkName>Material_PK</pkName>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Title</foType>
@@ -43,7 +44,6 @@
 <createdBy>catalin.strimbei</createdBy>
 <createdTime>2012-03-23 11:16:48 UTC</createdTime>
 <ownerDesignName>Design_Stocuri</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -51,5 +51,27 @@
 <dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="denumire" id="31496F2B-57CB-C2C6-97D0-833929D097CD">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-23 12:06:12 UTC</createdTime>
+<ownerDesignName>Design_Stocuri</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DFA876A-BAD6-D7B2-F8FE-E8EC28C84A59" name="Material_PK">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-03-23 12:06:12 UTC</createdTime>
+<ownerDesignName>Design_Stocuri</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4D179570-40B1-E445-0930-B20E60BBBE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
