@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="168DCCD3-F894-189D-616C-88B8ADA4F1B5" directorySegmentName="seg_0" name="Test">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2012-04-03 08:42:20 UTC</createdTime>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <pkName>Test_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="id" id="5CA043B7-B27A-FCDB-10C7-AF7C02C9715F">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2012-04-03 08:42:39 UTC</createdTime>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <autoIncrementCycle>false</autoIncrementCycle>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F0A4A962-80F7-CB0F-8570-3C1D71DE6057" name="Test_PK">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2012-04-03 08:42:44 UTC</createdTime>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="5CA043B7-B27A-FCDB-10C7-AF7C02C9715F"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>
