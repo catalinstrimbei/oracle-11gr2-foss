@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B89DFA72-3EE9-B068-ACAB-C311693D5A5D" mainViewID="E6C231DA-5986-C038-3751-98C079AA083D">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-04-03 06:59:04 UTC</createdTime>
+<ownerDesignName>Design-Stocuri</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

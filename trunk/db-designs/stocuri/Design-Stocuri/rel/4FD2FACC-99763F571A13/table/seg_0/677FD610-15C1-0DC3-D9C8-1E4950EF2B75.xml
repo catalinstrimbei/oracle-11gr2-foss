@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="677FD610-15C1-0DC3-D9C8-1E4950EF2B75" directorySegmentName="seg_0" name="Material">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-04-03 07:07:08 UTC</createdTime>
+<ownerDesignName>Design-Stocuri</ownerDesignName>
+<pkName>Material_PK</pkName>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codmat" id="E0AE350F-BADB-CD23-7615-943AF60711A7">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-04-03 07:07:54 UTC</createdTime>
+<ownerDesignName>Design-Stocuri</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AD432D2-9A68-0574-88FE-007D2E68D438" name="Material_PK">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-04-03 07:08:01 UTC</createdTime>
+<ownerDesignName>Design-Stocuri</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E0AE350F-BADB-CD23-7615-943AF60711A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
