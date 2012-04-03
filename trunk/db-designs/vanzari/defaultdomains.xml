@@ -1,0 +1,328 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domCodTura" id="05348860-7EDD-6E5B-5AC8-22AD1B4C2456">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 19:37:39 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>5</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domCodInchiriere" id="2CED7F1E-9BBF-2772-4BA8-06B7B57E1C4C">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 17:37:54 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>5</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT018</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domZonaMasa" id="2F8FB30B-FD5B-5E10-766B-5E65536AA72B">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 19:53:28 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Fumatori" description="Fumatori"/>
+            <valueDef value="Nefumatori" description="Nefumatori"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domTipGustare" id="308F0485-27DF-FE43-0B62-130B75A430CF">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 21:03:39 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Dulciuri" description="Dulciuri"/>
+            <valueDef value="Snacksuri" description="Snacksuri"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domTipBautura" id="41836688-91D1-D7D4-9904-C836EDE58D29">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 20:52:49 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Bauturi Calde" description="Bauturi calde"/>
+            <valueDef value="Bere" description="Bere"/>
+            <valueDef value="Cocktail A" description="Cocktail alcoolic"/>
+            <valueDef value="Cocktail N" description="Cocktail non-alcoolic"/>
+            <valueDef value="Gin" description="Gin"/>
+            <valueDef value="Racoritoare" description="Racoritoare"/>
+            <valueDef value="Vin" description="Vin"/>
+            <valueDef value="Vodca" description="Vodca"/>
+            <valueDef value="Whiskey" description="Whiskey"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domJudet" id="44347939-6E89-A58A-D65D-6C08013E0F94">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 16:39:36 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <listOfValues>
+            <valueDef value="&amp;apos;Tulcea &amp;apos;" description="Tulcea"/>
+            <valueDef value="Alba" description="Alba"/>
+            <valueDef value="Arad" description="Arad"/>
+            <valueDef value="Arges" description="Arges"/>
+            <valueDef value="Bacau" description="Bacau"/>
+            <valueDef value="Bihor" description="Bihor"/>
+            <valueDef value="Bistrita" description="Bistrita"/>
+            <valueDef value="Botosani" description="Botosani"/>
+            <valueDef value="Braila" description="Braila"/>
+            <valueDef value="Brasov" description="Brasov"/>
+            <valueDef value="Buzau" description="Buzau"/>
+            <valueDef value="Calarasi" description="Calarasi"/>
+            <valueDef value="Caras-Severin" description="Caras-Severin"/>
+            <valueDef value="Cluj" description="Cluj"/>
+            <valueDef value="Constanta" description="Constanta"/>
+            <valueDef value="Covasna" description="Covasna"/>
+            <valueDef value="Dambovita" description="Dambovita"/>
+            <valueDef value="Dolj" description="Dolj"/>
+            <valueDef value="Galati" description="Galati"/>
+            <valueDef value="Giurgiu" description="Giurgiu"/>
+            <valueDef value="Gorj" description="Gorj"/>
+            <valueDef value="Harghita" description="Harghita"/>
+            <valueDef value="Hunedoara" description="Hunedoara"/>
+            <valueDef value="Ialomita" description="Ialomita"/>
+            <valueDef value="Iasi" description="Iasi"/>
+            <valueDef value="Ilfov" description="Ilfov"/>
+            <valueDef value="Maramures" description="Maramures"/>
+            <valueDef value="Mehedinti" description="Mehedinti"/>
+            <valueDef value="Mures" description="Mures"/>
+            <valueDef value="Neamt" description="Neamt"/>
+            <valueDef value="Olt" description="Olt"/>
+            <valueDef value="Prahova" description="Prahova"/>
+            <valueDef value="Salaj" description="Salaj"/>
+            <valueDef value="Satu Mare" description="Satu Mare"/>
+            <valueDef value="Sibiu" description="Sibiu"/>
+            <valueDef value="Suceava" description="Suceava"/>
+            <valueDef value="Teleorman" description="Teleorman"/>
+            <valueDef value="Timis" description="Timis"/>
+            <valueDef value="Valcea" description="Valcea"/>
+            <valueDef value="Vaslui" description="Vaslui"/>
+            <valueDef value="Vrancea" description="Vrancea"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domPost" id="4A49696A-1B92-92F9-BBEA-98AECAB63E12">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 17:21:30 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Barman" description="Barman"/>
+            <valueDef value="Bucatar" description="Bucatar"/>
+            <valueDef value="Contabil" description="Contabil"/>
+            <valueDef value="Manager" description="Manager"/>
+            <valueDef value="Ospatar" description="Ospatar"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domDaNu" id="4BC4E9BE-98C1-D8B7-59EE-9439F3B0E74B">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-19 18:39:56 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>2 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <listOfValues>
+            <valueDef value="DA" description="DA"/>
+            <valueDef value="NU" description="NU"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domStudii" id="6AD3F36C-1D91-A91C-F8BC-794235ADB30D">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 19:13:01 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Gimnaziale" description="Gimnaziale"/>
+            <valueDef value="Liceale" description="Liceale"/>
+            <valueDef value="Superioare" description="Superioare"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domTipContract" id="70429A27-D75A-4AD7-F85E-A26ACACF2925">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 19:23:17 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Full" description="Full-time"/>
+            <valueDef value="Part" description="Part-time"/>
+            <valueDef value="Practica" description="Practica"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domIdRestaurant" id="7CA1DCE8-6B0F-1459-34A1-C6819948B87F">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 17:02:06 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>5 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domSuma" id="A2C36F66-A492-5160-E62A-B2DAD691C868">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 17:33:37 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>12</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>12 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domTipPreparat" id="BCBCF23D-1250-C672-47D6-C9817C3EDDCA">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 21:02:12 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Aperitive" description="Aperitive"/>
+            <valueDef value="Ciorbe" description="Ciorbe"/>
+            <valueDef value="Desert" description="Desert"/>
+            <valueDef value="Fripturi" description="Fripturi"/>
+            <valueDef value="Garnituri" description="Garnituri"/>
+            <valueDef value="Pizza" description="Pizza"/>
+            <valueDef value="Salate" description="Salate"/>
+            <valueDef value="Sosuri" description="Sosuri"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domPerioada" id="CD173959-43EE-3F62-80CF-A8106E81E1C6">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 19:24:56 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Determinata" description="Perioada determinata"/>
+            <valueDef value="Nedeterminata" description="Perioada nedeterminata"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 11:38:08 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domData" id="ED788E87-034F-9283-7945-A7CECDD4AAAD">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 17:39:33 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <defaultValue>CURRENT_DATE</defaultValue>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <checkConstraint>
+            <implementationDef dbType="Generic Constraint" definition=""/>
+            <implementationDef dbType="Oracle Database 11g" definition="self &amp;gt;= CURRENT_DATE"/>
+         </checkConstraint>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domIdAngajat" id="F527E145-FCF1-172F-91AB-88602AE0BCFD">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-18 17:18:34 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>5 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="domTipValoare" id="F6D5B526-1445-7839-CD2D-1EEA6D2630C9">
+         <createdBy>Marius</createdBy>
+         <createdTime>2011-12-19 18:38:09 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>15 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Enumerate" description="Enumeratie"/>
+            <valueDef value="Integer" description="Integer"/>
+            <valueDef value="String" description="String"/>
+         </listOfValues>
+      </Domain>
+   </domains>
+</DomainFile>
