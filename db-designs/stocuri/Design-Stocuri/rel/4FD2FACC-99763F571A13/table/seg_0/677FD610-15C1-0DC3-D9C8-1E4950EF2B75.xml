@@ -51,6 +51,17 @@
 <dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="denmat" id="208EEAFD-E03C-E1FD-3A90-229D4E09CA4E">
+<createdBy>catalin.strimbei</createdBy>
+<createdTime>2012-04-03 07:16:53 UTC</createdTime>
+<ownerDesignName>Design-Stocuri</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8AD432D2-9A68-0574-88FE-007D2E68D438" name="Material_PK">
