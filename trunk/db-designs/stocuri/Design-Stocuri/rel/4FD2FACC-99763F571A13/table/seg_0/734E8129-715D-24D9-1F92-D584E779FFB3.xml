@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" id="677FD610-15C1-0DC3-D9C8-1E4950EF2B75" directorySegmentName="seg_0" name="Material">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="734E8129-715D-24D9-1F92-D584E779FFB3" directorySegmentName="seg_0" name="Stoc">
 <createdBy>catalin.strimbei</createdBy>
-<createdTime>2012-04-03 07:07:08 UTC</createdTime>
+<createdTime>2012-04-03 07:19:14 UTC</createdTime>
 <ownerDesignName>Design-Stocuri</ownerDesignName>
-<pkName>Material_PK</pkName>
+<pkName>TABLE_2_PK</pkName>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Title</foType>
@@ -40,9 +40,9 @@
 </FontObject>
 </fonts>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="codmat" id="E0AE350F-BADB-CD23-7615-943AF60711A7">
+<Column name="idstoc" id="8718E28F-544E-4C68-F83D-1C45D0FEE903">
 <createdBy>catalin.strimbei</createdBy>
-<createdTime>2012-04-03 07:07:54 UTC</createdTime>
+<createdTime>2012-04-03 07:19:54 UTC</createdTime>
 <ownerDesignName>Design-Stocuri</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,52 +51,28 @@
 <dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="denmat" id="208EEAFD-E03C-E1FD-3A90-229D4E09CA4E">
+<Column name="codmat" id="4F7BED67-2275-006F-C26F-D091F3497BCE">
 <createdBy>catalin.strimbei</createdBy>
-<createdTime>2012-04-03 07:16:53 UTC</createdTime>
+<createdTime>2012-04-03 07:21:16 UTC</createdTime>
 <ownerDesignName>Design-Stocuri</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Stoc_idstoc" id="FB9120BA-4CED-92A5-70AF-F9312BE51187">
-<createdBy>catalin.strimbei</createdBy>
-<createdTime>2012-04-03 07:21:45 UTC</createdTime>
-<ownerDesignName>Design-Stocuri</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<delegate>8718E28F-544E-4C68-F83D-1C45D0FEE903</delegate>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BC93793E-4B72-0A81-41E9-172678F6A13C" referredColumn="8718E28F-544E-4C68-F83D-1C45D0FEE903"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8AD432D2-9A68-0574-88FE-007D2E68D438" name="Material_PK">
+<ind_PK_UK id="6C9EE95E-B7F2-6509-49E8-5F736E52EEC9" name="STOC_PK">
 <createdBy>catalin.strimbei</createdBy>
-<createdTime>2012-04-03 07:08:01 UTC</createdTime>
+<createdTime>2012-04-03 07:19:54 UTC</createdTime>
 <ownerDesignName>Design-Stocuri</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
-<colUsage columnID="E0AE350F-BADB-CD23-7615-943AF60711A7"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C91E8839-511B-7FF9-1AA0-708735B7463F" name="Material_Stoc_FK">
-<createdBy>catalin.strimbei</createdBy>
-<createdTime>2012-04-03 07:21:45 UTC</createdTime>
-<ownerDesignName>Design-Stocuri</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<indexColumnUsage>
-<colUsage columnID="FB9120BA-4CED-92A5-70AF-F9312BE51187"/>
+<colUsage columnID="8718E28F-544E-4C68-F83D-1C45D0FEE903"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

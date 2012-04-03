@@ -14,5 +14,17 @@
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="677FD610-15C1-0DC3-D9C8-1E4950EF2B75" otype="Table" vid="CF0C0C53-8D8F-D971-60CC-772D5A8AE605">
 <bounds x="56" y="58" width="170" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="734E8129-715D-24D9-1F92-D584E779FFB3" otype="Table" vid="931899EB-5911-A140-AEB4-70D1D43C289A">
+<bounds x="367" y="69" width="170" height="110"/>
+</OView>
 </objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="BC93793E-4B72-0A81-41E9-172678F6A13C" otype="FKIndexAssociation" vid_source="931899EB-5911-A140-AEB4-70D1D43C289A" vid_target="CF0C0C53-8D8F-D971-60CC-772D5A8AE605">
+<lineWidth>1</lineWidth>
+<points>
+<point x="367" y="118"/>
+<point x="226" y="118"/>
+</points>
+</Connector>
+</connectors>
 </Diagram>
