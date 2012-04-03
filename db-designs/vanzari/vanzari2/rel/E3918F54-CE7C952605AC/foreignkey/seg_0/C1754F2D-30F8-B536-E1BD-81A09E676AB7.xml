@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="C1754F2D-30F8-B536-E1BD-81A09E676AB7" directorySegmentName="seg_0" name="rel_prod_prodTVA">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+   <generatorID>C0D06D89-C351-E5A4-0B50-A16CDD4CBC8C</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <containerWithKeyObject>AA3FA2E1-7CE9-6ED1-72B6-42011AEFB682</containerWithKeyObject>
+   <deleteRule>RESTRICT</deleteRule>
+   <localFKIndex>5A0E186B-0480-9DC7-2DEB-751AFD235876</localFKIndex>
+   <keyObject>EE8D8CC7-C70C-5745-C34E-DFDDC4AD5BEB</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CODURI_POST_JUD" id="5D0A9FBD-2E71-2C9D-5567-8E2420924A33" directorySegmentName="seg_0">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+   <generatorID>1FA27ECF-EE6A-2D44-E268-BF024D4B75AC</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>B7689344-9AB5-47AE-CF2E-4FEC0A33203D</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>AB599356-BB52-77DF-7EE2-4EF3B95C1BF0</targetEntity>
+   <transferable>true</transferable>
+</Relation>

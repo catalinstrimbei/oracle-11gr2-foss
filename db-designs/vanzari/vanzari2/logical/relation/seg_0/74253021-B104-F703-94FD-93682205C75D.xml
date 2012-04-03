@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_persclienti_clienti" id="74253021-B104-F703-94FD-93682205C75D" directorySegmentName="seg_0">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+   <generatorID>065FF2C8-2784-D47F-A552-9597E71CCF7D</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>86871736-D446-EDBB-4C3F-ED76BED89C88</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>D733A48C-ADEC-223C-B2A0-D7CA74FA7A86</targetEntity>
+   <transferable>true</transferable>
+</Relation>

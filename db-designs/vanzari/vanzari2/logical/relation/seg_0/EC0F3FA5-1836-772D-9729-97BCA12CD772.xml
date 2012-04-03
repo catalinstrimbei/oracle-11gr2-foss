@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_liniifact_produse" id="EC0F3FA5-1836-772D-9729-97BCA12CD772" directorySegmentName="seg_0">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+   <generatorID>AE37FE27-D4DB-B5DE-DED7-76BA8BA3857D</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>E16EAC87-B17B-A0C6-55AD-5604B5A76D05</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>60A1B0A5-48FE-AB9B-188D-3B3F81514C2F</targetEntity>
+   <transferable>true</transferable>
+</Relation>

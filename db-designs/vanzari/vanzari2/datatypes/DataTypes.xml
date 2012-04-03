@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="9CCE2683-5B8C-1B02-C2BF-90C411D646A9" mainViewID="83971A06-69D3-0861-27C2-D02BCE994182">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-07-12 06:14:45 UTC</createdTime>
+   <ownerDesignName>vanzari1</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+   <defaultArrayLimit>10</defaultArrayLimit>
+   <useRoleInAssociationEndAsName>true</useRoleInAssociationEndAsName>
+</DataTypesDesign>

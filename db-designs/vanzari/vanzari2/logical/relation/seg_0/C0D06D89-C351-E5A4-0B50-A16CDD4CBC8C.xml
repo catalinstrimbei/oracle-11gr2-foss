@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_prod_prodTVA" id="C0D06D89-C351-E5A4-0B50-A16CDD4CBC8C" directorySegmentName="seg_0">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-08-28 16:11:25 UTC</createdTime>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>E16EAC87-B17B-A0C6-55AD-5604B5A76D05</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>02FD83A9-F469-261A-2358-7EF6471BE274</targetEntity>
+   <transferable>true</transferable>
+</Relation>
