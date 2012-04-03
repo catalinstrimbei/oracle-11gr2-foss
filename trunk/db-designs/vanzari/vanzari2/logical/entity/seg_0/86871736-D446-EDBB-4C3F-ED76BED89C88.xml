@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="86871736-D446-EDBB-4C3F-ED76BED89C88" directorySegmentName="seg_0" name="Clienti">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+   <generatorID>A94072E4-7191-C406-605B-359DF1AD2AFD</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <pkName>clienti__IDX</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CodCl" id="E583FE4A-EE1A-98EA-85BA-D01E40B437E9">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>63A2CB55-4128-9DD0-A167-3BF63752196F</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <constraintName>ck_codcl</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <domain>7ECDE816-5E86-1DC5-CB4A-C65B61902883</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="codcl &amp;gt; 1000"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="DenCl" id="4AD22791-2CF9-65F2-3749-083AFD616B18">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>1DA5ACFB-9AC2-823E-626D-0CA7DCD1D6F2</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <constraintName>ck_dencl</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>1C3EA9D4-CEBA-D11A-756F-8B702E2ABADA</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="SUBSTR(dencl,1,1) = UPPER(SUBSTR(dencl,1,1))"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CodFiscal" id="602299FD-9B82-DFC3-EC05-D4F79CA98787">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>163B0A2B-62E2-89ED-9B05-70712A0C2443</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <constraintName>ck_codfiscal</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>10</dataTypeSize>
+         <domain>AA52AC0F-EB44-30DB-9074-500D8FDF83E6</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="SUBSTR(codfiscal,1,1) = UPPER(SUBSTR(codfiscal,1,1))"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Adresa" id="7ACB1A75-D75D-0D53-C666-E7808E0F7A55">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>1479593C-DEAE-68DF-7303-305A187E6E5D</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <constraintName>ck_adresa_clienti</constraintName>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 CHAR</dataTypeSize>
+         <domain>30010288-B59B-192D-BBFE-1359F9A32887</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="SUBSTR(adresa,1,1) = UPPER(SUBSTR(adresa,1,1))"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CodPost" id="038A20A4-6A60-0D0B-79DD-3BB2033A49D7">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>3A37351E-3D4C-36DD-5E12-A1C9A6922B91</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <referedAttribute>047B46E8-94E1-D040-0E17-FC5EAC464507</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>6</dataTypeSize>
+         <domain>A0B1C5D3-B2D7-9BC3-22F5-2793A1B48751</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Telefon" id="BB3462A1-717C-B6C5-4FDA-E64632BF1CBA">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>79FE789E-DA5E-858F-C7A2-AA64F18F69AE</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10</dataTypeSize>
+         <domain>1C49104F-EB32-6317-93B2-6C633F7BF0F1</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="SoldCurent" id="8EC1A786-B047-A574-793F-D607A21DB42A">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 16:39:47 UTC</createdTime>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>14</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="F3311F49-121C-3138-990A-B12C82DDD338" name="clienti__PK">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>582D836D-BFA5-A636-E1CF-188B5B0A3500</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>E583FE4A-EE1A-98EA-85BA-D01E40B437E9</attributeRef>
+         </usedAttributes>
+      </identifier>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="CDA9960D-BB7B-EC2B-451D-6926E33ECA60" name="clienti_codfiscal__UN">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 16:46:26 UTC</createdTime>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <usedAttributes>
+            <attributeRef>602299FD-9B82-DFC3-EC05-D4F79CA98787</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="B7689344-9AB5-47AE-CF2E-4FEC0A33203D" directorySegmentName="seg_0" name="judete">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+   <generatorID>CE2F6B59-2BFF-D633-056D-A4CE45BD956D</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <pkName>judete__IDX</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Jud" id="B461DAA2-0FC8-278C-8BF8-62BE5E38DC1E">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>8AA65DBD-A72A-4191-2CD8-71C2E351BDE0</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <constraintName>ck_jud</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>2</dataTypeSize>
+         <domain>976A9DDE-6FB6-B1D6-0D41-45AC2905FDD7</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="jud=LTRIM(UPPER(jud))"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Judet" id="961C9C83-A0F3-FF42-0CF4-10E426753E3C">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>D93FEE41-FAC7-BD40-AE45-649554B1F2CE</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <constraintName>un_judet</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>25 CHAR</dataTypeSize>
+         <domain>DD234334-0647-D449-035B-BBDB869E4754</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="judet=LTRIM(INITCAP(judet))"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Regiune" id="19718351-E699-9163-B9B7-4F1226967F78">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>8E649A00-C0C1-6000-7CCE-E37315FE0DF8</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <constraintName>CK_REGIUNE</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <defaultValue>&amp;apos;Moldova&amp;apos;</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+         <domain>303B7083-3C9D-D416-7D60-333869ACA0F2</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="REGIUNE IN (&amp;apos;Banat&amp;apos;, &amp;apos;Transilvania&amp;apos;, &amp;apos;Dobrogea&amp;apos;,&amp;apos;Oltenia&amp;apos;, &amp;apos;Muntenia&amp;apos;, &amp;apos;Moldova&amp;apos;)"/>
+         </checkConstraint>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="2163322C-11A6-188A-5DD4-E780FE23E182" name="judete__PK">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>750270AA-A37E-395C-D005-47689BD9B476</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>B461DAA2-0FC8-278C-8BF8-62BE5E38DC1E</attributeRef>
+         </usedAttributes>
+      </identifier>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="5A9C1D7D-6642-954E-43B0-3F54B79C279F" name="judete_juder__UN">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 16:42:06 UTC</createdTime>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <usedAttributes>
+            <attributeRef>961C9C83-A0F3-FF42-0CF4-10E426753E3C</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

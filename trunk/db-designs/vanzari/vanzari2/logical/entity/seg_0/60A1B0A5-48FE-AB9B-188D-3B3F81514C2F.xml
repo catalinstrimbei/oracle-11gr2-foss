@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="60A1B0A5-48FE-AB9B-188D-3B3F81514C2F" directorySegmentName="seg_0" name="liniifact">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+   <generatorID>2B330CEC-198A-B2AE-4156-91C6B8DC9B2C</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <pkName>pk_liniifact</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="NrFact" id="9E8A9CBF-0105-0EFE-ABC3-FA1E03DA1132">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>E0EB75B0-F8A6-3FF5-523E-7F0731B16A90</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <referedAttribute>AF9DD05C-1513-4C1D-199E-9BDAB38EEBBC</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <domain>46F27F36-E5EE-6F92-7E8F-F0D226FBD6D3</domain>
+         <propertyMap>
+            <property name="refers.attribute" value="AF9DD05C-1513-4C1D-199E-9BDAB38EEBBC"/>
+         </propertyMap>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Linie" id="4E3076FB-338D-30C0-1FFF-A1AD9071A7A3">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>7EE72137-65CD-B586-98D3-EA26A261C99E</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <constraintName>ck_linie</constraintName>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <domain>0A537491-4552-F031-76B9-20329C3712F2</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="linie &amp;gt; 0"/>
+         </checkConstraint>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="CodPr" id="239130A4-9F9C-D65A-C5B8-7C93979B7C25">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>EC0F3FA5-1836-772D-9729-97BCA12CD772</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <referedAttribute>665A7A46-CFA1-27E1-F0AA-71D8B133BD11</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <domain>7ECDE816-5E86-1DC5-CB4A-C65B61902883</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Cantitate" id="B091524A-C309-B9F6-9391-E6F24D1265EC">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>0FDFED8A-5483-0749-F607-417A1614A686</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>3</dataTypeScale>
+         <domain>46F27F36-E5EE-6F92-7E8F-F0D226FBD6D3</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="PretUnit" id="F638FEBE-EFD8-02D6-8F02-2FA4BBB92E86">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>529D53D2-25F7-7DDD-EBA2-63E2D0BC52F3</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <domain>69EABBC4-8669-8336-B842-397E5BC70955</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="TVALinie" id="55CC0E04-6D5F-9488-539C-FE4812787B2E">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 15:35:54 UTC</createdTime>
+         <generatorID>139C1029-D7C4-7855-8FF1-588C5CB84CC9</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>12</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="2BF6BDF1-B420-1770-0B56-FC11E9A09B2F" name="liniifact__PK">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+         <generatorID>21BC5D1B-AB42-E830-14FF-9B5C94D24FF4</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>9E8A9CBF-0105-0EFE-ABC3-FA1E03DA1132</attributeRef>
+            <attributeRef>4E3076FB-338D-30C0-1FFF-A1AD9071A7A3</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

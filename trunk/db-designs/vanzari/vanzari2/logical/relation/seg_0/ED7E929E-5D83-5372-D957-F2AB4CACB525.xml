@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_clienti_ist_functii" id="ED7E929E-5D83-5372-D957-F2AB4CACB525" directorySegmentName="seg_0">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-08-28 16:53:25 UTC</createdTime>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>86871736-D446-EDBB-4C3F-ED76BED89C88</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>0E50CA80-15D8-FE4B-67F6-2B36E3C4C5E8</targetEntity>
+   <transferable>true</transferable>
+</Relation>

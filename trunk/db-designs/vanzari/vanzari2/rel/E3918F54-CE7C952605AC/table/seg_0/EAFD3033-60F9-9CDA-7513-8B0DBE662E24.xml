@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="EAFD3033-60F9-9CDA-7513-8B0DBE662E24" directorySegmentName="seg_0" name="persoane">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+   <generatorID>2DB10556-F418-8CB1-2197-9DA0CD38DD9D</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <pkName>persoane__PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CNP" id="CC0F7DF2-16C5-CD71-493A-6EF6397D9B30">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>AD32E869-71FC-D3BD-E5EF-C0015D08129E</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>14</dataTypeSize>
+         <domain>18D77161-338A-FDA7-7FA1-F44D18E26D2E</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="cnp=LTRIM(UPPER(cnp))"/>
+         </checkConstraint>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Nume" id="68000B0E-53EC-D8EC-C418-6C1D448439CF">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>F45A5E73-19E9-5D07-1CC8-806D3EF75D76</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 CHAR</dataTypeSize>
+         <domain>6976DB43-B729-D456-000E-9267B902FD99</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="nume=LTRIM(INITCAP(nume))"/>
+         </checkConstraint>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Prenume" id="DBDB075C-7EB3-9AC9-7423-35F1D702E069">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>C8E5718C-1483-8087-095A-72BAA56D7FB2</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>30 CHAR</dataTypeSize>
+         <domain>6976DB43-B729-D456-000E-9267B902FD99</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="prenume=LTRIM(INITCAP(prenume))"/>
+         </checkConstraint>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Adresa" id="867ABDCA-504C-8FC2-501F-DD83F83EF4EF">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>F732F607-A53B-7A9C-582B-136A52488AA4</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <nullsAllowed>true</nullsAllowed>
+         <useDomainConstraints>false</useDomainConstraints>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 CHAR</dataTypeSize>
+         <domain>30010288-B59B-192D-BBFE-1359F9A32887</domain>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="SUBSTR(adresa,1,1) = UPPER(SUBSTR(adresa,1,1))"/>
+         </checkConstraint>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Sex" id="930F6633-0E83-AF12-63E2-6A514CAFDDB0">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>E15DFF3E-201E-9601-A6A9-E5972FA27981</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <useDomainConstraints>false</useDomainConstraints>
+         <defaultValue>&amp;apos;B&amp;apos;</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <checkConstraint>
+            <implementationDef dbType="Oracle Database 10g" definition="SEX IN (&amp;apos;F&amp;apos;,&amp;apos;B&amp;apos;)"/>
+         </checkConstraint>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CodPost" id="1D662DFD-49DF-B491-589D-B8966B9D2853">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>5F62EC8C-BF8B-2A7C-4FDE-0913E06A15A3</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <dataTypeSize>6</dataTypeSize>
+         <domain>A0B1C5D3-B2D7-9BC3-22F5-2793A1B48751</domain>
+         <delegate>8E163F82-578C-5FAE-7F07-2A85F6228D4E</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="8A7617DD-8FEB-1DA5-F16E-D5BFB4F772A1" referredColumn="8E163F82-578C-5FAE-7F07-2A85F6228D4E"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TelAcasa" id="1EE7A615-8FFB-5BAC-6612-6444A1CF62AA">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>5B4B61A5-0478-47B7-C37D-B446378C5B9D</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10</dataTypeSize>
+         <domain>1C49104F-EB32-6317-93B2-6C633F7BF0F1</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TelBirou" id="7B5B56A9-5AE2-9FD7-5025-12083577127F">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>43631148-2E7E-5E61-5244-C89E1CF0D18B</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10</dataTypeSize>
+         <domain>1C49104F-EB32-6317-93B2-6C633F7BF0F1</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TelMobil" id="4767C5BD-8C7F-EC94-C470-2117D588250A">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>522924D0-4939-E40B-A695-E1ADBF67B093</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>10</dataTypeSize>
+         <domain>1C49104F-EB32-6317-93B2-6C633F7BF0F1</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EMail" id="CD7C6A86-8843-00D8-8B16-81B44E309350">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>BA563169-8E89-BE0B-1091-8ADB712A066E</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>D5AD51B8-7B60-D144-2A65-88F21A6D1985</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="66F98C5B-F580-18ED-FB4F-56D4A3007CA1" name="persoane__PK">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>0C1A28C9-9AA0-E86B-C963-4C8FA6C56631</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="CC0F7DF2-16C5-CD71-493A-6EF6397D9B30"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5113F645-43B0-5FE4-41AF-9FC2DE3ED55D" name="fk_persoane_coduri_postale">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>C5BCEE6F-D90B-C8AB-74C3-AFF7B7DDB437</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <indexColumnUsage>
+            <colUsage columnID="1D662DFD-49DF-B491-589D-B8966B9D2853"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

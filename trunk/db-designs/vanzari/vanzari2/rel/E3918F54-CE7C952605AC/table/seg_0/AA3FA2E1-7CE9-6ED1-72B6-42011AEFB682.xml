@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="AA3FA2E1-7CE9-6ED1-72B6-42011AEFB682" directorySegmentName="seg_0" name="produse_TVA">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+   <generatorID>02FD83A9-F469-261A-2358-7EF6471BE274</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <pkName>produse_tva_PK</pkName>
+   <abbreviation>PRODTVA</abbreviation>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DataIntrareVigoare" id="10D07BAC-5531-6C41-30FB-C428F06F46ED">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>35D41CA2-8F06-2473-C05F-009F5B8E6537</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT015</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DataIesireVigoare" id="FD1CB4CB-0BA2-754B-E123-E3B0E399393C">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>D8658918-25ED-C015-7FD8-018CA35D8148</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT015</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ProcentTVA" id="CBF53F30-C114-C897-3517-4E142B02EA1F">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>63F9884F-4372-7441-E811-57C5AD05A37E</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>4</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CodPr" id="E330E22D-A9D7-3AF0-6835-C4546C7F3F2C">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>D83B78EE-CDB5-8A1A-ED4B-3E1669A1C5B5</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <domain>7ECDE816-5E86-1DC5-CB4A-C65B61902883</domain>
+         <delegate>E41FA7DD-A349-EDC0-B848-2E0299279888</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="C1754F2D-30F8-B536-E1BD-81A09E676AB7" referredColumn="E41FA7DD-A349-EDC0-B848-2E0299279888"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="0C6907CB-430B-4DE1-4151-239D23C96724" name="produse_tva_PK">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>BA253745-D9AC-3A3D-CDCB-7F183BD04E34</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="10D07BAC-5531-6C41-30FB-C428F06F46ED"/>
+            <colUsage columnID="E330E22D-A9D7-3AF0-6835-C4546C7F3F2C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5A0E186B-0480-9DC7-2DEB-751AFD235876" name="rel_prod_prodTVA">
+         <createdBy>Marin F</createdBy>
+         <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+         <generatorID>C0D06D89-C351-E5A4-0B50-A16CDD4CBC8C</generatorID>
+         <ownerDesignName>vanzari2</ownerDesignName>
+         <engineerTo>
+            <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+         </engineerTo>
+         <indexColumnUsage>
+            <colUsage columnID="E330E22D-A9D7-3AF0-6835-C4546C7F3F2C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

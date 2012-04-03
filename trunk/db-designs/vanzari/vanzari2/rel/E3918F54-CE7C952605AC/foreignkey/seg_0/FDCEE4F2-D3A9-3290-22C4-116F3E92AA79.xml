@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="FDCEE4F2-D3A9-3290-22C4-116F3E92AA79" directorySegmentName="seg_0" name="FK_CODURI_POST_JUD">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+   <generatorID>5D0A9FBD-2E71-2C9D-5567-8E2420924A33</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <containerWithKeyObject>CC8BFD98-4105-3DEB-9023-80C10840E34E</containerWithKeyObject>
+   <deleteRule>RESTRICT</deleteRule>
+   <localFKIndex>C41F976B-4AF9-D961-19BB-1A1FDD0B1801</localFKIndex>
+   <keyObject>61093653-9BA9-1BEE-C672-107C345D142B</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="C5002E35-955A-8A7C-D5FB-0F3C9C30AF19" directorySegmentName="seg_0" name="fk_liniifact_produse">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-08-28 17:45:33 UTC</createdTime>
+   <generatorID>EC0F3FA5-1836-772D-9729-97BCA12CD772</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <containerWithKeyObject>5C4F49D5-1CB5-B7B0-1ED4-DA3354E5A941</containerWithKeyObject>
+   <deleteRule>RESTRICT</deleteRule>
+   <localFKIndex>72B3062C-40D2-2B43-40D6-87A421FDAA7B</localFKIndex>
+   <keyObject>EE8D8CC7-C70C-5745-C34E-DFDDC4AD5BEB</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

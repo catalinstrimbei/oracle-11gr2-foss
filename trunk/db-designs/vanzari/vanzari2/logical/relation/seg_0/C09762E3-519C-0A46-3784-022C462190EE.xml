@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_incasfact_facturi" id="C09762E3-519C-0A46-3784-022C462190EE" directorySegmentName="seg_0">
+   <createdBy>Marin F</createdBy>
+   <createdTime>2011-07-12 06:24:27 UTC</createdTime>
+   <generatorID>DA55FF7C-BF59-D150-211E-3BCC80A94B1D</generatorID>
+   <ownerDesignName>vanzari2</ownerDesignName>
+   <engineerTo>
+      <item key="E3918F54-5855-FF34-92D5-CE7C952605AC" value="true"/>
+   </engineerTo>
+   <identifying>true</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>false</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>85EBAE64-AFBC-E195-1EA9-42C9C474B3AE</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>BE59BDA3-6773-0174-24DA-75E6C22ACF62</targetEntity>
+   <transferable>true</transferable>
+</Relation>
