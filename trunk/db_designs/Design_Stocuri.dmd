@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Design_Stocuri" id="6B0015B1-5A87-38FE-2479-7AC4AF00B571" version="3.5">
-<createdBy>catalin.strimbei</createdBy>
-<createdTime>2012-03-23 11:16:15 UTC</createdTime>
-<ownerDesignName>Design_Stocuri</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>6B0015B1-5A87-38FE-2479-7AC4AF00B571</designId>
-</OSDM_Design>
