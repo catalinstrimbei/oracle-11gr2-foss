@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="7B81378F-638E-3351-0DE1-5AB59DFB63D0" directorySegmentName="seg_0" name="Contracte_Munca">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:01:39 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pkName>Contracte_Munca_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="IdContract" id="29A9A18A-D91A-6161-002D-2BE310907EAE">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:04:44 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Marca" id="66C5D824-0F48-E9B0-65EB-A6E1379FF67C">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:08:04 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>EAA86150-57EF-899B-2800-EBA1C42E2040</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BD94595-9243-F0F1-CD00-490748924A0A" referredColumn="EAA86150-57EF-899B-2800-EBA1C42E2040"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SalarLunar" id="35C2A3BC-C393-7C58-7E6B-E09E3447C6D8">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:21:00 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DataAngajarii" id="C0C87C22-22C9-4570-BBE0-5F4096577897">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:05:33 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DataSfârsit" id="4A20E7CD-FC00-16D9-B390-24ABB1A7E191">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:12:23 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="FunctiaDeBaza" id="4497BA67-9B77-5817-9696-00C301C21AB7">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:28:54 UTC</createdTime>
+<commentInRDBMS>1=functia de baza&lt;br/&gt;</commentInRDBMS>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="IdDepartament" id="78F72135-8346-AB80-68D7-08107A7D57BC">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 15:08:48 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>9FD31B53-CE4A-37B2-92B9-F112C5C23627</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EB38DA6-39CF-2783-90CC-1AC9307470B4" referredColumn="9FD31B53-CE4A-37B2-92B9-F112C5C23627"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="8D013D2A-2853-5E9A-7411-8B1F76ADAB7F" name="Contracte_Munca_PK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:04:44 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="29A9A18A-D91A-6161-002D-2BE310907EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3909C67D-2E80-8AE1-912D-6CA74E3A8B83" name="Contracte_Munca_Personal_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:08:04 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="66C5D824-0F48-E9B0-65EB-A6E1379FF67C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="6C10B3E1-C6C5-FD44-7B47-D7297206F124" name="Contracte_Munca_Departamente_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 15:08:48 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="78F72135-8346-AB80-68D7-08107A7D57BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="8F4E31A6-D6C5-F451-42AB-E97719D9D38C" directorySegmentName="seg_0" name="Retineri_Lunare">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:11:42 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pkName>Retineri_Lunare_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="An" id="BD5EB78E-7339-D9D9-EEC3-A075F26BC109">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:12:13 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Luna" id="AF9CDF2A-3DE2-D2F5-4493-9AE93CB32235">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:12:30 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="IdContract" id="1DF6540B-7627-C112-B16A-F30205D948FF">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:13:06 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>29A9A18A-D91A-6161-002D-2BE310907EAE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1619EE1E-287D-AE94-A765-DDAB5F70419B" referredColumn="29A9A18A-D91A-6161-002D-2BE310907EAE"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TipRetinere" id="19A91446-B22C-195A-9C9A-EF853071A464">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:12:57 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>71BF23D6-3B8B-EF46-71FA-AB2415FA7E53</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8F76540-E467-CD45-880B-DCAE68EA79D2" referredColumn="71BF23D6-3B8B-EF46-71FA-AB2415FA7E53"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Suma" id="39CC937A-96A5-2B0C-F03E-2859E995E9DA">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:12:47 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A39B9E7C-612C-5B6F-C037-B5411922C228" name="Retineri_Lunare_PK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:12:30 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="AF9CDF2A-3DE2-D2F5-4493-9AE93CB32235"/>
+<colUsage columnID="BD5EB78E-7339-D9D9-EEC3-A075F26BC109"/>
+<colUsage columnID="1DF6540B-7627-C112-B16A-F30205D948FF"/>
+<colUsage columnID="19A91446-B22C-195A-9C9A-EF853071A464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="78101F5E-5AB5-706D-AF3D-E0FFF32658C0" name="Retineri_Lunare_Nom_Retineri_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:12:57 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="19A91446-B22C-195A-9C9A-EF853071A464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A1D9EA5D-2942-6AEC-AB92-9C8F7947336F" name="Retineri_Lunare_Contracte_Munca_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:13:06 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="1DF6540B-7627-C112-B16A-F30205D948FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="C48E475A-E085-489C-211B-2836A54DA62B" directorySegmentName="seg_0" name="Pontaj_Nom_Ore_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:22:49 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<containerWithKeyObject>98ED4A66-D299-0C15-062D-1186372A497C</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>50065CD0-1089-2A42-FA24-0D7268F4005E</localFKIndex>
+<keyObject>49F0C8D7-A6BA-98E9-5B73-C168F9C2AB88</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

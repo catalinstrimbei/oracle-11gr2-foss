@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5A73A89A-5C4B-3FD7-BEDA-292A369E9353" directorySegmentName="seg_0" name="Nom_Contributii">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:50:59 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pkName>Nom_Contributii_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TipContributie" id="9A4397F7-95EC-0447-5E67-2ECC9A28C356">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:51:47 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NumeContributie" id="2454A579-8FFE-A814-5145-893646B28065">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:52:07 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Procent" id="727E3094-B64B-E07D-06E7-889919402F48">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 15:11:11 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="BazaDeCalcul" id="CA4E7CAF-E200-21FB-AAFF-77310A85E962">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 15:11:48 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A3D375CC-5B7B-E00F-1F7F-46D061FD60C9" name="Nom_Contributii_PK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:51:47 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="9A4397F7-95EC-0447-5E67-2ECC9A28C356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

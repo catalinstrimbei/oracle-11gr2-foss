@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="96E7FBE6-FF94-6802-1027-F724759F14D4" directorySegmentName="seg_0" name="Sporuri_Lunare_Tipuri_Sporuri_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:44:22 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<containerWithKeyObject>58FF07B0-CE16-A10F-A740-35F9265985A2</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>0C35FB09-153A-F593-5390-A366C39E99C8</localFKIndex>
+<keyObject>7092DDEC-74AB-4430-5AA6-326FE0E3D83A</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

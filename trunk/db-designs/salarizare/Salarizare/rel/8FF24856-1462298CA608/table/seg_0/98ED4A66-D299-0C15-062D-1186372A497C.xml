@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="98ED4A66-D299-0C15-062D-1186372A497C" directorySegmentName="seg_0" name="Pontaj">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:17:28 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pkName>Pontaj_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="An" id="2B020A27-CDAB-11D7-70B9-56087831AE2B">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:18:01 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Luna" id="C523F6C9-8A7D-EBCC-2C8B-924E5C8D6FAD">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:19:19 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="IdContract" id="0965E809-DC9F-C4EA-A16F-EF7DDE112AE9">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:19:33 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>29A9A18A-D91A-6161-002D-2BE310907EAE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF0F4479-90CD-316D-A623-2CA18DD90479" referredColumn="29A9A18A-D91A-6161-002D-2BE310907EAE"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TipOre" id="41890725-1702-1ABE-8C0E-70385C5DA28A">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:22:49 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>60D6FE11-9D6E-C18D-C663-E15E07B14CF4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C48E475A-E085-489C-211B-2836A54DA62B" referredColumn="60D6FE11-9D6E-C18D-C663-E15E07B14CF4"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NrOre" id="C94423F7-CB08-F0D1-D505-57424FDA4356">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:23:21 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="19050C1F-1453-C1B0-ADE1-4ED7DD8AA80A" name="Pontaj_PK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:19:19 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C523F6C9-8A7D-EBCC-2C8B-924E5C8D6FAD"/>
+<colUsage columnID="2B020A27-CDAB-11D7-70B9-56087831AE2B"/>
+<colUsage columnID="0965E809-DC9F-C4EA-A16F-EF7DDE112AE9"/>
+<colUsage columnID="41890725-1702-1ABE-8C0E-70385C5DA28A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="41BBC7FD-0C0F-AA41-6BEA-43C8ED66CB0A" name="Pontaj_Contracte_Munca_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:19:33 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="0965E809-DC9F-C4EA-A16F-EF7DDE112AE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="50065CD0-1089-2A42-FA24-0D7268F4005E" name="Pontaj_Nom_Ore_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:22:49 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="41890725-1702-1ABE-8C0E-70385C5DA28A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
