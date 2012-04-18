@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="5BD94595-9243-F0F1-CD00-490748924A0A" directorySegmentName="seg_0" name="Contracte_Munca_Personal_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:08:04 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<containerWithKeyObject>7B81378F-638E-3351-0DE1-5AB59DFB63D0</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>3909C67D-2E80-8AE1-912D-6CA74E3A8B83</localFKIndex>
+<keyObject>94C2E5DF-9D99-6436-DD13-B3F30BF500CF</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

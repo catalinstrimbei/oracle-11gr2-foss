@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="58FF07B0-CE16-A10F-A740-35F9265985A2" directorySegmentName="seg_0" name="Sporuri_Lunare">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:42:21 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pkName>Sporuri_Lunare_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="An" id="0A7269E1-0FF9-2442-0391-6768CF0FF658">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:43:25 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Luna" id="4EC844AA-106A-18FE-F638-33BEA0A1AEAA">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:43:41 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="IdContract" id="EB015CA7-7CAB-A2A4-A235-B4D4F35C3028">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:44:06 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>29A9A18A-D91A-6161-002D-2BE310907EAE</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5D6D5B2-AF29-2E65-2E45-F756201ADD78" referredColumn="29A9A18A-D91A-6161-002D-2BE310907EAE"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TipSpor" id="BC51EB32-A25F-6670-8F85-C1790455BCF7">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:44:22 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>55434BC6-ED89-0062-780D-4999C690CDB7</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96E7FBE6-FF94-6802-1027-F724759F14D4" referredColumn="55434BC6-ED89-0062-780D-4999C690CDB7"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Suma" id="C20690D0-97FE-8411-AFE5-A41B3C171574">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:00:12 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="531A3114-7C95-2A16-22D5-4B4BAFF8C5E6" name="Sporuri_Lunare_PK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:44:48 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0A7269E1-0FF9-2442-0391-6768CF0FF658"/>
+<colUsage columnID="4EC844AA-106A-18FE-F638-33BEA0A1AEAA"/>
+<colUsage columnID="EB015CA7-7CAB-A2A4-A235-B4D4F35C3028"/>
+<colUsage columnID="BC51EB32-A25F-6670-8F85-C1790455BCF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="8F934396-0C66-CCD7-A1DC-54E56E9BC244" name="Sporuri_Lunare_Contracte_Munca_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:44:06 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="EB015CA7-7CAB-A2A4-A235-B4D4F35C3028"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="0C35FB09-153A-F593-5390-A366C39E99C8" name="Sporuri_Lunare_Tipuri_Sporuri_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 12:44:22 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="BC51EB32-A25F-6670-8F85-C1790455BCF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="B8F76540-E467-CD45-880B-DCAE68EA79D2" directorySegmentName="seg_0" name="Retineri_Lunare_Nom_Retineri_FK">
+<createdBy>sirbufl</createdBy>
+<createdTime>2012-04-13 13:12:57 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<containerWithKeyObject>8F4E31A6-D6C5-F451-42AB-E97719D9D38C</containerWithKeyObject>
+<deleteRule>RESTRICT</deleteRule>
+<localFKIndex>78101F5E-5AB5-706D-AF3D-E0FFF32658C0</localFKIndex>
+<keyObject>2D340286-4EFF-9360-D9D3-3A0E672F02A1</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>
