@@ -65,6 +65,16 @@
 <colAssociation fkAssociation="5BD94595-9243-F0F1-CD00-490748924A0A" referredColumn="EAA86150-57EF-899B-2800-EBA1C42E2040"/>
 </associations>
 </Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Functia" id="4B25FBA2-F554-DF4B-603C-7D0BEE724093">
+<createdBy>Florin</createdBy>
+<createdTime>2012-04-18 19:59:50 UTC</createdTime>
+<ownerDesignName>Salarizare</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SalarLunar" id="35C2A3BC-C393-7C58-7E6B-E09E3447C6D8">
 <createdBy>sirbufl</createdBy>
 <createdTime>2012-04-13 12:21:00 UTC</createdTime>
